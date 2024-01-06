@@ -9,7 +9,6 @@ st.markdown("# Streamlit is awesome")
 query = st.text_input("What is your name?")
 st.write('Hello ', query)
 
-st.set_option('deprecation.showfileUploaderEncoding', False)
 
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
